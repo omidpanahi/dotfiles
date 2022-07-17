@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if tmux info &> /dev/null; then 
+  echo running
+  source ~/.tmux/plugins/tmux-resurrect/scripts/save.sh 
+else
+  echo not running
+fi

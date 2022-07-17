@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+tmux new-session -d  'bash ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh'
