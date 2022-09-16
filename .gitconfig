@@ -1,2 +1,13 @@
 [user]
-	name = Omid Panahi
+  name = Omid Panahi
+  email = git@omidpanahi.com
+
+[alias]
+  rh = reset --hard HEAD
+  cb = checkout -b
+  c = checkout
+  cp = cherry-pick
+  unstage = reset --soft HEAD
+  undo = reset --soft HEAD~1
+[push]
+  default = current
