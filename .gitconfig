@@ -1,6 +1,6 @@
 [user]
   name = Omid Panahi
-  email = git@omidpanahi.com
+  email = me@omidpanahi.com
 
 [alias]
   rh = reset --hard HEAD
